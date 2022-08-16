@@ -1,0 +1,42 @@
+.modal {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: fit-content;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  box-shadow: 2px 3px 15px 5px rgb(225 212 197 / 48%);
+  border: 1px solid black;
+  opacity: 0;
+}
+
+.modalActive {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: fit-content;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  border: 1px solid black;
+}
+
+.message {
+  padding: 0.3em;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.message button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url(../../img/x_icon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1.5em;
+  width: 1.5em;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 0.8em;
+}

@@ -1,0 +1,21 @@
+.filterButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.filterButtons button {
+  background-color: rgba(92, 67, 61, 0.137);
+  height: 1.8em;
+  width: 4.5em;
+  border: 1px solid rgba(92, 67, 61, 0.541);
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 0.5em;
+  border-radius: 0.5em;
+  font-size: 15px;
+}
+
+.filterButtons .active {
+  background-color: rgba(88, 70, 66, 0.342);
+}
